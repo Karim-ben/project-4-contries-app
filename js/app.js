@@ -16860,7 +16860,7 @@ let borderContries=contries.filter((contry) => {
 
 borderContries.forEach(function(item) {
     bordersHtml+=`
-    <a class="dark" href="./detail.html?name=${item}">${item}</a>
+      <a class="dark" href="project-4-contries-app/detail.html?name=${item}">${item}</a>
             
     `
 });
