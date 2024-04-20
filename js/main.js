@@ -16881,7 +16881,7 @@ function displayContries(contries){
     let html=''
     contries.forEach((contry) => {
         html+=`
-        <a href="project-4-contries-app/detail.html?name=${contry.name}">
+        <a href="detail.html?name=${contry.name}">
           <div class="contry dark">
             <img src=${contry.flags.png} alt="${contry.name}" />
             <div class="info">
