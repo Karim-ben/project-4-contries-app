@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.css"
+      integrity="sha512-U9Y1sGB3sLIpZm3ePcrKbXVhXlnQNcuwGQJ2WjPjnp6XHqVTdgIlbaDzJXJIAuCTp3y22t+nhI4B88F/5ldjFA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <!-- header section -->
+    <header class="dark">
+      <div class="logo">Where in the world?</div>
+      <div id="dark-mode" class="dark__mode dark">
+        <i class="fa-solid fa-moon"></i>
+        <i class="fa-regular fa-moon"></i>
+        <span>Dark Mode</span>
+      </div>
+    </header>
+    <!-- home  section -->
+    <section class="home dark">
+      <!-- filter by Region -->
+      <div class="search__filter">
+        <div class="search dark">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input class="dark" type="text" placeholder="Search for a contry" />
+        </div>
+        <div class="filter">
+          <select id="filter" class="dark">
+            <option selected disabled>Filter by Region</option>
+            <option value="Asia">Asia</option>
+            <option value="Europe">Europe</option>
+            <option value="Africa">Africa</option>
+            <option value="Americas">Americas</option>
+            <option value="Oceania">Oceania</option>
+          </select>
+        </div>
+      </div>
+      <div id="contries" class="contries">
+        
+    
+      </div>
+    </section>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
